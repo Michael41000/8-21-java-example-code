@@ -32,7 +32,7 @@ public class Client {
 			String serverSays = reader.readLine();
 			System.out.println("Server said: " + serverSays);
 			
-			if (serverSays.equals("Server Stopped") || serverSays.contains("Winner"))
+			if (serverSays.equals("Server Stopped"))
 			{
 				input.close();
 				writer.close();
